@@ -28,11 +28,11 @@ The final model is **Logistic Regression**: it scored as well as or better than 
 trains in seconds, and is easy to deploy.
 
 ## Files
-- notebook.ipynb: EDA, model comparison and tuning
-- train.py: trains the final pipeline and saves model.bin
-- predict.py: Flask web service (/predict)
-- Dockerfile, requirements.txt
-- essays_sample.jsonl: sample used to train inside the Docker build
+- `notebook.ipynb`: EDA, model comparison and tuning
+- `train.py`: trains the final pipeline and saves model.bin
+- `predict.py`: Flask web service (/predict)
+- `Dockerfile` : requirements.txt
+- `essays_sample.jsonl`: sample used to train inside the Docker build
 
 ## How to run
 docker build -t ai-essay-detector .
